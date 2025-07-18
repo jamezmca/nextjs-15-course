@@ -148,7 +148,8 @@ footer a img {
   z-index: 10;
 }
 
-.hidden-nav {
+/* using stronger CSS selector since .nav also carries "display" property  */
+.nav.hidden-nav {
   display: none !important;
 }
 
